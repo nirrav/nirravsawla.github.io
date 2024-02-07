@@ -32,25 +32,17 @@ function loadRandomQuote() {
         "You complete me.",
         "You had me at hello.",
         "My heart is and always will be yours.",
-        "I love you more than yesterday, but less than tomorrow.",
         "You are my sunshine on a cloudy day.",
-        "You are the best thing that’s ever been mine.",
         "Together is my favorite place to be.",
-        "Every love story is beautiful, but ours is my favorite.",
         "I love you to the moon and back.",
         "Forever and always.",
-        "In you, I’ve found the love of my life and my closest, truest friend.",
         "You are the love of my life.",
         "You are the reason I believe in love.",
-        "I love you not only for what you are, but for what I am when I am with you.",
-        "You are my heart, my life, my one and only thought.",
         "You make my heart smile.",
         "I still fall for you every day.",
         "I’m much more me when I’m with you.",
         "My heart is and always will be yours.",
         "You’re the best thing I never knew I needed.",
-        "I love you more than I have ever found a way to say to you.",
-        "Loved you yesterday, love you still, always have, always will."
     ];
 
     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
