@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To, MY LOVE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+    <!-- Slideshow Icon -->
+    <div class="slideshow-icon">
+        <a href="Valentines.mp4">
+            <img src="gallery.png" style="width: 100px; height: 100px;">
+        </a>
+    </div>
+
+    <!-- Letter Icon -->
+    <div class="letter-icon">
+        <a href="#" onclick="openLoveLetter()">
+            <img src="mail.gif" style="width: 100px; height: 100px; cursor: pointer;">
+        </a>
+    </div>
+
+    <!-- Lovey-Dovey Quotes Box (Top Right Corner) -->
+    <div class="quotes-box">
+        <p id="quote"></p>
+        <img src="refresh.gif" class="refresh-icon" style="width: 40px; height: 40px; cursor: pointer;">
+    </div>
+
+    <div class="container">
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">Happy<br>Valentine's<br>Day!</div>
+                <div class="heart"></div>
+            </div>
+        </div>
+    </div>
+    <div class="shadow"></div>
+
+    <!-- Modal for Love Letter -->
+    <div id="loveLetterModal" class="modal">
+        <div id="love-letter-content">
+            <p>My Dearest Love,</p>
+            <p>I want you to know how much you mean to me...</p>
+            <p>Every moment I spend with you feels like a treasure, a precious gem that I want to hold onto forever.
+                Your smile lights up my world, your laughter is the melody that fills my heart with joy.</p>
+            <p>In your eyes, I see a reflection of all the beauty and wonder of the world. Your kindness, your warmth,
+                your unwavering support—they are the pillars that hold me up when I feel like I'm falling.</p>
+            <p>You are my rock, my anchor in a sea of uncertainty. With you by my side, I feel invincible, ready to take
+                on any challenge that life throws our way.</p>
+            <p>But it's not just the big moments that make me love you. It's the little things—the way you laugh at my
+                jokes, the way you hold my hand when we walk together, the way you make me feel like I'm the most
+                important person in the world.</p>
+            <p>Being with you has taught me what it truly means to love and be loved. It's not just about grand gestures
+                or extravagant displays of affection. It's about the quiet moments we share, the simple pleasures of
+                being together, the feeling of knowing that we're in this together, no matter what.</p>
+            <p>So here's to us, my love. Here's to the memories we've made and the adventures that lie ahead. Here's to
+                the love that binds us together, stronger than anything the world can throw at us.</p>
+            <p>I love you more than words can say, more than you'll ever know. You are my everything, now and always.
+            </p>
+        </div>
+        <button onclick="closeLoveLetter()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
